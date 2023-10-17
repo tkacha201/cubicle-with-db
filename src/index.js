@@ -17,8 +17,8 @@ expressConfig(app);
 
 // Connecting to the database
 dbConnect()
-  .then(() => console.log("yay"))
-  .catch((err) => console.log(`Woops: ${err}`));
+  .then(() => console.log("yay db connected"))
+  .catch((err) => console.log(`Woops not connected to server: ${err}`));
 
 // Routing
 app.use(routes);

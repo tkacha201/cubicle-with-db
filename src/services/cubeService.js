@@ -1,5 +1,4 @@
-const uniqid = require("uniqid");
-
+const Cube = require("../models/Cube");
 const cubes = [];
 
 // {
@@ -30,16 +29,12 @@ const cubes = [];
 //   difficultyLevel: 4,
 // },
 
-exports.create = (cubeData) => {
-  // const id = uniqid();
-  const newCube = {
-    id: uniqid(),
-    ...cubeData,
-  };
+exports.create = async (cubeData) => {
+  // const cube = new Cube(cubeData);
+  // await cube.save();
 
-  cubes.push(newCube);
-
-  return newCube;
+  const cube = await Cube.create(cubeData);
+  return cube;
 };
 exports.getAll = (search, from, to) => {
   let filterCubes = [...cubes];
