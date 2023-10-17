@@ -5,7 +5,7 @@ const cubes = [
     id: "1lvc06uslnrfoon6",
     name: "The 2x2 Rubik's Cube",
     description:
-      "Or the Pocket Cube is a version of the Rubik's cube with just two layers. It is also called the Mini Cube. This Pocket Cube might seem very simple to solve at first glance, but it has more than 3.6 million possible permutations! Mind-boggling, isn't it? There are only four stickers on each face of this cube as compared to the colour patterns of the Rubik's Cube. Therefore, the solution is to twist the cube around and pave your own path.",
+      "Or the Pocket Cube is a version of the Rubik's cube with just two layers. Also called the Mini Cube. This Pocket Cube might seem very simple to solve at first glance, but it has more than 3.6 million possible permutations! Mind-boggling, isn't it? There are only four stickers on each face of this cube as compared to the colour patterns of the Rubik's Cube. Therefore, the solution is to twist the cube around and pave your own path.",
     imageUrl:
       "https://cdn.shopify.com/s/files/1/0270/0342/0758/files/2x2.jpg?v=1609821372",
     difficultyLevel: 1,
